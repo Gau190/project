@@ -1,0 +1,1631 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Title</title>
+  </head>
+  <body class="bg-white" >
+    <div
+      class="wrapper col-lg-10 col-md-12 col-sm-12 m-auto border justify-content-center "
+      
+    >
+      <nav class="navbar p-3 sticky-top navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="">
+          <img
+            src="image/lOGO.svg"
+            alt=""
+            class="img-fluid"
+            style="width: 100%"
+          />
+        </a>
+        <!-- <button
+          class="navbar-toggler mx-3"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbartop"
+          aria-controls="navbartop"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <a
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          href="#navbartop"
+          role="button"
+          aria-expanded="false"
+          aria-controls="navbartop"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </a>
+        <div class="collapse navbar-collapse" id="navbartop">
+          <ul class="navbar-nav m-auto text-uppercase fw-bold fs-5">
+            <li class="nav-item active ms-3 ms-ms-3 ms-md-0 ms-lg-0">
+              <a class="nav-link" href="#"
+                ><img src="image/home.jpg" alt="" />
+                <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0">
+              <a class="nav-link" href="#">Thời sự</a>
+            </li>
+
+            <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0">
+              <a class="nav-link" href="#">Chữa bệnh</a>
+            </li>
+            <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0">
+              <a class="nav-link" href="#">Phòng bệnh</a>
+            </li>
+            <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0">
+              <a class="nav-link" href="#">Đông y</a>
+            </li>
+            <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0">
+              <a class="nav-link" href="#">Chăm sóc đặc biệt</a>
+            </li>
+            <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0">
+              <a class="nav-link" href="#">Giới tính</a>
+            </li>
+            <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0">
+              <a class="nav-link" href="#">Tâm lý</a>
+            </li>
+            <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0">
+              <a class="nav-link" href="#">Dinh dưỡng</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div
+        class="bg-trend d-lg-flex d-md-flex"
+        style="align-items: center; background-color: #ededed"
+      >
+        <div
+          class="text-uppercase fw-bold mx-lg-4 mx-md-2 mx-sm-0 text-center"
+          style="height: 1.6em"
+        >
+          <p>trending</p>
+        </div>
+        <!-- slide trend-->
+        <div
+          id="carouselExampleControls "
+          class="carousel slide w-lg-75 w-md-75 w-sm-100 text-center"
+          style="height: 1.6em"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <p>Cô gái bị lỡ chuyến bay vì khuôn mặt khác lạ sau phẫu thuật</p>
+            </div>
+            <div class="carousel-item">
+              <p>Cô gái bị lỡ chuyến bay vì khuôn mặt khác lạ sau phẫu thuật</p>
+            </div>
+            <div class="carousel-item">
+              <p>Cô gái bị lỡ chuyến bay vì khuôn mặt khác lạ sau phẫu thuật</p>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon"
+              style="width: 1.2rem; height: 1.2rem"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon"
+              style="width: 1.2rem; height: 1.2rem"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div
+        class="slide my-4 gap-1 d-block d-sm-block d-md-flex d-lg-flex col-fluid"
+      >
+        <div class="group-news_1 col-lg-7 col-md-7 col-sm-12 col-12">
+          <div class="news_1 position-relative">
+            <img
+              src="./image/13.png"
+              style="width: 98%; margin: 0 auto"
+              alt=""
+            />
+            <img
+              src="./image/Rectangle 12.svg"
+              style="width: 98%"
+              class="position-absolute bottom-0 start-0 w-fluid"
+              alt=""
+            />
+            <p class="position-absolute bottom-0 w-80 m-4 h5 text-white">
+              Các bài tập khởi động chân, chạy bộ, chống đẩy, plank... giúp tăng
+              sức bền và khỏe cơ bụng, cơ chân, theo Be Fit.
+            </p>
+          </div>
+        </div>
+        <div
+          class="group-news_2 mt-1 mt-sm-1 mt-md-0 mt-lg-0 col-lg-5 col-md-5 col-sm-12 col-12"
+        >
+          <div
+            class="news_2 row-lg-6 position-relative p-2 p-sm-2 p-md-2 p-lg-0"
+          >
+            <img src="./image/20.png" class="" style="width: 98%" alt="" />
+            <img
+              src="./image/Rectangle 12.svg"
+              style="width: 98%"
+              class="position-absolute bottom-0 start-0 w-fluid p-2 p-sm-2 p-md-2 p-lg-0"
+              alt=""
+            />
+            <p class="position-absolute bottom-0 w-80 m-3 h6 text-white mb-4">
+              12 động tác hít đất từ cơ bản đến nâng cao cho phái mạnh
+            </p>
+          </div>
+          <div
+            class="news-group row-lg-6 gap-1 mt-lg-3 mt-md-3 mt-sm-2 mt-2 d-block d-sm-block d-md-flex d-lg-flex justify-content-center"
+          >
+            <div class="position-relative p-2 p-sm-2 p-md-2 p-lg-0">
+              <img src="./image/22.png" style="width: 98%" alt="" />
+              <img
+                src="./image/Rectangle 12.svg"
+                style="width: 98%"
+                class="position-absolute bottom-0 start-0 w-fluid p-2 p-sm-2 p-md-2 p-lg-0"
+                alt=""
+              />
+              <p
+                class="position-absolute bottom-0 w-75 m-1 h6 text-white p-2 p-sm-2 p-md-2 p-lg-0"
+              >
+                Hướng dẫn tư thế hít đất đúng chuẩn
+              </p>
+            </div>
+            <div
+              class="mt-1 mt-sm-1 mt-md-0 mt-lg-0 position-relative p-2 p-sm-2 p-md-2 p-lg-0"
+            >
+              <img src="./image/21.png" style="width: 98%" alt="" />
+              <img
+                src="./image/Rectangle 12.svg"
+                style="width: 98%"
+                class="position-absolute bottom-0 start-0 w-fluid p-2 p-sm-2 p-md-2 p-lg-0"
+                alt=""
+              />
+              <p
+                class="position-absolute bottom-0 w-75 m-1 h6 text-white p-2 p-sm-2 p-md-2 p-lg-0"
+              >
+                Chàng trai một tháng hít đất 100
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="videos bg-light mt-5 p-2">
+        <h5 class="heading fw-bold border-top">
+          <i class="fa-solid fa-square text-primary justify-content-center"></i>
+          VIDEOS
+        </h4>
+
+        <div
+          class="justify-content-center d-block d-sm-block d-md-flex d-lg-flex"
+        >
+          <div
+            class="videos-1 col-12 col-sm-12 col-md-3 col-lg-3 ms-0 ms-sm-0 ms-md-0 ms-lg-0 mt-5 mt-sm-5 mt-md-0 mt-lg-0 p-3 justify-content-center"
+          >
+            <img src="./image/23.jpg" style="width: 100%" alt="" />
+            <p class="content fw-bold fs-14 m-2">
+              Vitamin E Tự nhiên Và Tổng Hợp Dược Sử Dụng Như Thế Nào
+            </p>
+            <p class="fs-11 m-2 text-black-50">BienTapVien T12 19, 2017</p>
+          </div>
+          <div
+            class="videos-2 col-12 col-sm-12 col-md-3 col-lg-3 ms-0 ms-sm-0 ms-md-0 ms-lg-0 mt-5 mt-sm-5 mt-md-0 mt-lg-0 p-3 justify-content-center"
+          >
+            <img src="./image/26.png" style="width: 100%" alt="" />
+            <p class="content fw-bold fs-14 m-2">
+              Vitamin E Tự nhiên Và Tổng Hợp Được Sử Dụng Như Thế Nào
+            </p>
+            <p class="fs-11 m-2 text-black-50">BienTapVien T12 19, 2017</p>
+          </div>
+          <div
+            class="videos-3 col-12 col-sm-12 col-md-3 col-lg-3 ms-0 ms-sm-0 ms-md-0 ms-lg-0 mt-5 mt-sm-5 mt-md-0 mt-lg-0 p-3 justify-content-center"
+          >
+            <img src="./image/24.jpg" style="width: 100%" alt="" />
+            <p class="content fw-bold fs-14 m-2">
+              Vitamin E Tự nhiên Và Tổng Hợp Được Sử Dụng Như Thế Nào
+            </p>
+            <p class="fs-11 m-2 text-black-50">BienTapVien T12 19, 2017</p>
+          </div>
+          <div
+            class="videos-4 col-12 col-sm-12 col-md-3 col-lg-3 ms-0 ms-sm-0 ms-md-0 ms-lg-0 mt-5 mt-sm-5 mt-md-0 mt-lg-0 p-3 justify-content-center"
+          >
+            <img src="./image/25.jpg" style="width: 100%" alt="" />
+            <p class="content fw-bold fs-14 m-2">
+              Vitamin E Tự nhiên Và Tổng Hợp Được Sử Dụng Như Thế Nào
+            </p>
+            <p class="fs-11 m-2 text-black-50">BienTapVien T12 19, 2017</p>
+          </div>
+          <!-- <div class="videos-1 col-12 col-sm-12 col-md-3 col-lg-3 border">
+            <img src="./image/23.jpg" style="width: 100%" alt="" />
+            <p class="content fw-bold" style="font-size:14px;">
+              Vitamin E Tự nhiên Và Tổng Hợp Dược Sử Dụng Như Thế Nào
+            </p>
+            <p class="text-">BienTapVien T12 19, 2017</p>
+          </div> -->
+        </div>
+      </div>
+      <!--end videos-->
+
+      <div
+        class="content d-block d-sm-block d-md-flex d-lg-flex col-12 my-4 justify-content-center"
+      >
+        <div class="category  col-12 col-sm-12 col-md-8 col-lg-8">
+          <div
+            class="content-category d-block d-sm-block d-md-block d-lg-block"
+          >
+            <!-- <p class="fw-bold px-2 m-0 border"><i class="fa-solid fa-square text-primary"></i> Category</p> -->
+            <div
+              class="category_1 d-block d-sm-block d-md-flex d-lg-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start"
+            >
+              <div
+                class="content_category_1 col-12 col-sm-12 col-md-6 col-lg-6 p-4 my-2 my-sm-2 mt-md-0 mt-lg-0 position-relative"
+              >
+                <p
+                  class="tag_category position-absolute bg-primary p-1 text-white fw-light"
+                >
+                  ĐÔNG Y
+                </p>
+                <img src="./image/26.png" style="width: 100%" alt="" />
+                <p class="content fw-bold fs-14 m-2">
+                  Nụ cười giúp doanh nhân Anh Thơ tỏa sáng trong mọi hoàn cảnh
+                </p>
+                <p class="fs-11 m-2 text-black-50">
+                  Bà xã của diễn viên Bình Minh ghi điểm trong mọi hoàn cảnh và
+                  phong cách nhờ thường trực nụ cười trên môi...
+                </p>
+              </div>
+              <div
+                class="content_category_1 col-12 col-sm-12 col-md-6 col-lg-6 p-4  my-2 my-sm-2 mt-md-0 mt-lg-0 position-relative"
+              >
+                <p
+                  class="tag_category position-absolute bg-success p-1 text-white fw-light"
+                >
+                  GIỚI TÍNH
+                </p>
+                <img src="./image/29.jpg" style="width: 100%" alt="" />
+                <p class="content fw-bold fs-14 m-2">
+                  Nụ cười giúp doanh nhân Anh Thơ tỏa sáng trong mọi hoàn cảnh
+                </p>
+                <p class="fs-11 m-2 text-black-50">
+                  Bà xã của diễn viên Bình Minh ghi điểm trong mọi hoàn cảnh và
+                  phong cách nhờ thường trực nụ cười trên môi...
+                </p>
+              </div>
+            </div>
+            <!--end category_1-->
+
+            <div
+              class="category_2 d-block d-sm-block d-md-flex d-lg-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start"
+            >
+              <div
+                class="content_category_2 col-12 col-sm-12 col-md-6 col-lg-6 p-4  my-2 my-sm-2 mt-md-0 mt-lg-0 position-relative"
+              >
+                <p
+                  class="tag_category position-absolute bg-warning p-1 text-white fw-light"
+                >
+                  TÂM LÝ
+                </p>
+                <img src="./image/25.jpg" style="width: 100%" alt="" />
+                <p class="content fw-bold fs-14 m-2">
+                  Nụ cười giúp doanh nhân Anh Thơ tỏa sáng trong mọi hoàn cảnh
+                </p>
+                <p class="fs-11 m-2 text-black-50">
+                  Bà xã của diễn viên Bình Minh ghi điểm trong mọi hoàn cảnh và
+                  phong cách nhờ thường trực nụ cười trên môi...
+                </p>
+              </div>
+              <div
+                class="content_category_2 col-12 col-sm-12 col-md-6 col-lg-6 p-4  my-2 my-sm-2 mt-md-0 mt-lg-0 position-relative"
+              >
+                <p
+                  class="tag_category position-absolute bg-success p-1 text-white fw-light"
+                >
+                  LÀM ĐẸP
+                </p>
+                <img src="./image/16.jpg" style="width: 100%" alt="" />
+                <p class="content fw-bold fs-14 m-2">
+                  Nụ cười giúp doanh nhân Anh Thơ tỏa sáng trong mọi hoàn cảnh
+                </p>
+                <p class="fs-11 m-2 text-black-50">
+                  Bà xã của diễn viên Bình Minh ghi điểm trong mọi hoàn cảnh và
+                  phong cách nhờ thường trực nụ cười trên môi...
+                </p>
+              </div>
+            </div>
+            <!--end category_2-->
+
+            <div
+              class="category_3 d-block d-sm-block d-md-flex d-lg-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start"
+            >
+              <div
+                class="content_category_1 col-12 col-sm-12 col-md-6 col-lg-6 p-4  my-2 my-sm-2 mt-md-0 mt-lg-0 position-relative"
+              >
+                <p
+                  class="tag_category position-absolute bg-primary p-1 text-white fw-light"
+                >
+                  Đông y
+                </p>
+                <img src="./image/30.jpg" style="width: 100%" alt="" />
+                <p class="content fw-bold fs-14 m-2">
+                  Nụ cười giúp doanh nhân Anh Thơ tỏa sáng trong mọi hoàn cảnh
+                </p>
+                <p class="fs-11 m-2 text-black-50">
+                  Bà xã của diễn viên Bình Minh ghi điểm trong mọi hoàn cảnh và
+                  phong cách nhờ thường trực nụ cười trên môi...
+                </p>
+              </div>
+              <div
+                class="content_category_3 col-12 col-sm-12 col-md-6 col-lg-6 p-4  my-2 my-sm-2 mt-md-0 mt-lg-0 position-relative"
+              >
+                <p
+                  class="tag_category position-absolute bg-info p-1 text-white fw-light"
+                >
+                  LÀM ĐẸP
+                </p>
+                <img src="./image/9.jpg" style="width: 100%" alt="" />
+                <p class="content fw-bold fs-14 m-2">
+                  Nụ cười giúp doanh nhân Anh Thơ tỏa sáng trong mọi hoàn cảnh
+                </p>
+                <p class="fs-11 m-2 text-black-50">
+                  Bà xã của diễn viên Bình Minh ghi điểm trong mọi hoàn cảnh và
+                  phong cách nhờ thường trực nụ cười trên môi...
+                </p>
+              </div>
+            </div>
+            <!--end category_3-->
+
+            <div
+              class="category_4 d-block d-sm-block d-md-flex d-lg-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start"
+            >
+              <div
+                class="content_category_4 col-12 col-sm-12 col-md-6 col-lg-6 p-4  my-2 my-sm-2 mt-md-0 mt-lg-0 position-relative"
+              >
+                <p
+                  class="tag_category position-absolute bg-secondary p-1 text-white fw-light"
+                >
+                  DU LỊCH
+                </p>
+                <img src="./image/11.jpg" style="width: 100%" alt="" />
+                <p class="content fw-bold fs-14 m-2">
+                  Nụ cười giúp doanh nhân Anh Thơ tỏa sáng trong mọi hoàn cảnh
+                </p>
+                <p class="fs-11 m-2 text-black-50">
+                  Bà xã của diễn viên Bình Minh ghi điểm trong mọi hoàn cảnh và
+                  phong cách nhờ thường trực nụ cười trên môi...
+                </p>
+              </div>
+              <div
+                class="content_category_4 col-12 col-sm-12 col-md-6 col-lg-6 p-4  my-2 my-sm-2 mt-md-0 mt-lg-0 position-relative"
+              >
+                <p
+                  class="tag_category position-absolute bg-danger p-1 text-white fw-light"
+                >
+                  TÂM LÝ
+                </p>
+                <img src="./image/12.jpg" style="width: 100%" alt="" />
+                <p class="content fw-bold fs-14 m-2">
+                  Nụ cười giúp doanh nhân Anh Thơ tỏa sáng trong mọi hoàn cảnh
+                </p>
+                <p class="fs-11 m-2 text-black-50">
+                  Bà xã của diễn viên Bình Minh ghi điểm trong mọi hoàn cảnh và
+                  phong cách nhờ thường trực nụ cười trên môi...
+                </p>
+              </div>
+            </div>
+            <!--end category_4-->
+          </div>
+          <!--end content-category-->
+          <!----------------------------------------------------------------------------------------------------------------------------------->
+          <div
+            class="content-life d-block d-sm-block d-md-block d-lg-block"
+          >
+            <nav
+              class="navbar content_life navbar-expand-lg navbar-light bg-light  border-top border-primary border-4"
+            >
+              <div class="container-fluid">
+                <a
+                  class="navbar-brand content-life text-primary text-uppercase fw-bold ms-3"
+                  href="#"
+                  >Đời sống</a
+                >
+                <a
+                  class="navbar-toggler"
+                  data-bs-toggle="collapse"
+                  href="#navbarContentlife"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="navbarContentlife"
+                >
+                  <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                </a>
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button> -->
+                <div
+                  class="collapse navbar-collapse flex-grow-0"
+                  id="navbarContentlife"
+                >
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0 border-end">
+                      <a class="nav-link" href="#">Dinh dưỡng</a>
+                    </li>
+                    <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0 border-end">
+                      <a class="nav-link" href="#">Làm đẹp</a>
+                    </li>
+
+                    <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0 border-end">
+                      <a class="nav-link" href="#">Thể chất</a>
+                    </li>
+                    <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0 border-end">
+                      <a class="nav-link" href="#">Tiêu dùng</a>
+                    </li>
+                    <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0 border-end">
+                      <a class="nav-link" href="#">Thị trường</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+            <div
+              class="group-content-life-1 d-block d-sm-block d-md-flex d-lg-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start"
+            >
+              <div
+                class="item1-content-life col-12 col-sm-12 col-md-6 col-lg-6 p-4  my-2 my-sm-2 mt-md-0 mt-lg-0 position-relative"
+              >
+                <img src="./image/26.png" style="width: 100%" alt="" />
+                <p class="content fw-bold fs-14 m-2">
+                  Nụ cười giúp doanh nhân Anh Thơ tỏa sáng trong mọi hoàn cảnh
+                </p>
+                <p class="fs-11 m-2 text-black-50">
+                  Bà xã của diễn viên Bình Minh ghi điểm trong mọi hoàn cảnh và
+                  phong cách nhờ thường trực nụ cười trên môi...
+                </p>
+              </div>
+              <!--end item1-content-life-->
+              <div
+                class="item2-content-life col-12 col-sm-12 col-md-6 col-lg-6 p-4  my-2 my-sm-2 mt-md-0 mt-lg-0 position-relative"
+              >
+                <div class="item-life-1 mb-3 d-flex">
+                  <img src="./image/23.jpg" style="width: 30%" alt="" />
+                  <div class="content-item px-2">
+                    <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                      Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                    </p>
+                    <div class="hours-comment-title1 d-flex mt-3">
+                      <p class="hours text-black-50 m-0">2 giờ trước</p>
+                      <p class="comment text-black-50 ms-4 mb-0">
+                        1242 bình luận
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--end item-life-1-->
+
+                <div class="item-life-2 mb-3 d-flex">
+                  <img src="./image/19.jpg" style="width: 30%" alt="" />
+                  <div class="content-item px-2">
+                    <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                      Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                    </p>
+                    <div class="hours-comment-title1 d-flex mt-3">
+                      <p class="hours text-black-50 m-0">2 giờ trước</p>
+                      <!-- <p class="comment text-black-50 ms-4 mb-0">1242 bình luận</p> -->
+                    </div>
+                  </div>
+                </div>
+                <!--end item-life-2-->
+
+                <div class="item-life-3 mb-3 d-flex">
+                  <img src="./image/5.jpg" style="width: 30%" alt="" />
+                  <div class="content-item px-2">
+                    <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                      Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                    </p>
+                    <div class="hours-comment-title1 d-flex mt-3">
+                      <p class="hours text-black-50 m-0">2 giờ trước</p>
+                      <p class="comment text-black-50 ms-4 mb-0">
+                        1242 bình luận
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--end item-life-3-->
+
+                <div class="item-life-4 mb-3 d-flex">
+                  <img src="./image/8.jpg" style="width: 30%" alt="" />
+                  <div class="content-item px-2">
+                    <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                      Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                    </p>
+                    <div class="hours-comment-title1 d-flex mt-3">
+                      <p class="hours text-black-50 m-0">2 giờ trước</p>
+                      <!-- <p class="comment text-black-50 ms-4 mb-0">1242 bình luận</p> -->
+                    </div>
+                  </div>
+                </div>
+                <!--end item-life-4-->
+
+                
+              </div>
+            </div>
+            <!--end group-content-life-1-->
+          </div>
+          <!--end content_life-->
+          <!--------------------------------------------------------------------------------------------------------->
+          <div
+            class="content-beautify d-block d-sm-block d-md-block d-lg-block"
+          >
+            <nav
+              class="navbar content_beautify navbar-expand-lg navbar-light bg-light  border-top border-primary border-4"
+            >
+              <div class="container-fluid">
+                <a
+                  class="navbar-brand content-beautify text-primary text-uppercase fw-bold ms-3"
+                  href="#"
+                  >Làm đẹp</a
+                >
+                <a
+                  class="navbar-toggler"
+                  data-bs-toggle="collapse"
+                  href="#navbarContentbeautify"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="navbarContentbeautify"
+                >
+                  <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                </a>
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button> -->
+                <div
+                  class="collapse navbar-collapse flex-grow-0"
+                  id="navbarContentbeautify"
+                >
+                  <ul class="navbar-nav me-md-auto me-lg-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item border-end ms-3 ms-ms-3 ms-md-0 ms-lg-0">
+                      <a class="nav-link" href="#">Đẹp +</a>
+                    </li>
+                    <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0 border-end">
+                      <a class="nav-link" href="#">Giảm cân</a>
+                    </li>
+
+                    <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0">
+                      <a class="nav-link" href="#">Chăm sóc da</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+            <div
+              class="group-content-beautify-1 d-block justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start"
+            >
+              <div
+                class="item1-content-beautify d-block d-sm-block d-md-flex d-lg-flex  mt-2 mt-sm-2 mt-md-0 mt-lg-0 position-relative col-12"
+              >
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-4">
+                  <img src="./image/37.jpg" style="width: 100%" alt="" />
+                  <p class="content fw-bold fs-14 m-2">
+                    Trải lòng của kình ngư Michael Phelps về chuỗi ngày trầm cảm
+                  </p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-4">
+                  <img src="./image/39.jpg" style="width: 100%" alt="" />
+                  <p class="content fw-bold fs-14 m-2">
+                    Trải lòng của kình ngư Michael Phelps về chuỗi ngày trầm cảm
+                  </p>
+                </div>
+              </div>
+              <!--end item1-content-beautify-->
+              <!-- <div class="item2-content-beautify d-block d-sm-block d-md-flex d-lg-flex border mt-2 mt-sm-2 mt-md-0 mt-lg-0 position-relative col-12">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 p-4">
+                  <img src="./image/39.jpg" style="width: 100%" alt="" />
+                  <p class="content fw-bold fs-14 m-2">
+                    Trải lòng của kình ngư Michael Phelps về chuỗi ngày trầm cảm
+                  </p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 p-4">
+                  <img src="./image/39.jpg" style="width: 100%" alt="" />
+                  <p class="content fw-bold fs-14 m-2">
+                    Trải lòng của kình ngư Michael Phelps về chuỗi ngày trầm cảm
+                  </p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 p-4">
+                  <img src="./image/39.jpg" style="width: 100%" alt="" />
+                  <p class="content fw-bold fs-14 m-2">
+                    Trải lòng của kình ngư Michael Phelps về chuỗi ngày trầm cảm
+                  </p>
+                </div>
+              </div>  -->
+              <!------------------------------------------ end item2-content-beautify -->
+              <div id="item2-content-beautify" class="carousel slide  mt-2 mt-sm-2 mt-md-0 mt-lg-0 position-relative col-12 d-none d-sm-none d-md-block d-lg-block" data-bs-ride="carousel">
+                <div class="carousel-inner ">
+                  <div class="carousel-item active">
+                      <a class="d-flex p-4 text-decoration-none" href="#">
+                        <img src="./image/39.jpg" style="width: 40%" alt="" />
+                      <div class="px-4">
+                        <h5 class="content card-title  fs-14">
+                        Trải lòng của kình ngư Michael Phelps về chuỗi ngày trầm cảm
+                      </h5>
+                      <p class="card-text">Là kình ngư hàng đầu thế giới với 82 huy chương quốc tế, Michael Phelps có cuộc sống bao người khao khát. Thế nhưng, đằng sau ánh hào quang...</p>
+                      </div>
+                      </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a class="d-flex p-4 text-decoration-none" href="#">
+                      <img src="./image/39.jpg" style="width: 40%" alt="" />
+                    <div class="px-4">
+                      <h5 class="content card-title  fs-14">
+                      Trải lòng của kình ngư Michael Phelps về chuỗi ngày trầm cảm
+                    </h5>
+                    <p class="card-text">Là kình ngư hàng đầu thế giới với 82 huy chương quốc tế, Michael Phelps có cuộc sống bao người khao khát. Thế nhưng, đằng sau ánh hào quang...</p>
+                    </div>
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a class="d-flex p-4 text-decoration-none" href="#">
+                      <img src="./image/39.jpg" style="width: 40%" alt="" />
+                    <div class="px-4">
+                      <h5 class="content card-title  fs-14">
+                      Trải lòng của kình ngư Michael Phelps về chuỗi ngày trầm cảm
+                    </h5>
+                    <p class="card-text">Là kình ngư hàng đầu thế giới với 82 huy chương quốc tế, Michael Phelps có cuộc sống bao người khao khát. Thế nhưng, đằng sau ánh hào quang...</p>
+                    </div>
+                    </a>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#item2-content-beautify" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#item2-content-beautify" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!-------------------------------------------------------------------carosel-->
+            </div>
+            <!--end group-content-beautify-1-->
+          </div>
+          <!--end content_beautify-->
+
+          <div
+            class="content-oriental-medicine d-block d-sm-block d-md-block d-lg-block "
+          >
+            <nav
+              class="navbar content_oriental-medicine navbar-expand-lg navbar-light bg-light  border-top border-primary border-4"
+            >
+              <div class="container-fluid">
+                <a
+                  class="navbar-brand content-oriental-medicine text-primary text-uppercase fw-bold ms-3"
+                  href="#"
+                  >Đông y</a
+                >
+                <a
+                  class="navbar-toggler"
+                  data-bs-toggle="collapse"
+                  href="#navbarContentoriental"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="navbarContentoriental"
+                >
+                  <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                </a>
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button> -->
+                <div
+                  class="collapse navbar-collapse flex-grow-0"
+                  id="navbarContentoriental"
+                >
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0 border-end">
+                      <a class="nav-link" href="#">Đông y thực hành</a>
+                    </li>
+                    <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0 border-end">
+                      <a class="nav-link" href="#">Tinh hoa thuốc nam</a>
+                    </li>
+
+                    <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0 border-end">
+                      <a class="nav-link" href="#">Phương pháp đặc biệt</a>
+                    </li>
+                    <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0">
+                      <a class="nav-link" href="#">Bấm huyêt</a>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+            <div
+              class="group-content-oriental-medicine-1 d-block d-sm-block d-md-flex d-lg-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start"
+            >
+              <div
+                class="item1-content-oriental-medicine col-12 col-sm-12 col-md-6 col-lg-6 p-4  my-2 my-sm-2 mt-md-0 mt-lg-0 position-relative"
+              >
+                <img src="./image/26.png" style="width: 100%" alt="" />
+                <p class="content fw-bold fs-14 m-2">
+                  Nụ cười giúp doanh nhân Anh Thơ tỏa sáng trong mọi hoàn cảnh
+                </p>
+                <p class="fs-11 m-2 text-black-50">
+                  Bà xã của diễn viên Bình Minh ghi điểm trong mọi hoàn cảnh và
+                  phong cách nhờ thường trực nụ cười trên môi...
+                </p>
+              </div>
+              <!--end item1-content-oriental-medicine-->
+              <div
+                class="item2-content-oriental-medicine col-12 col-sm-12 col-md-6 col-lg-6 p-4  my-2 my-sm-2 mt-md-0 mt-lg-0 position-relative"
+              >
+                <div class="item-life-1 mb-3 d-flex">
+                  <img src="./image/23.jpg" style="width: 30%" alt="" />
+                  <div class="content-item px-2">
+                    <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                      Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                    </p>
+                    <div class="hours-comment-title1 d-flex mt-3">
+                      <p class="hours text-black-50 m-0">2 giờ trước</p>
+                      <p class="comment text-black-50 ms-4 mb-0">
+                        1242 bình luận
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--end item-oriental-medicine-1-->
+
+                <div class="item-oriental-medicine-2 mb-3 d-flex">
+                  <img src="./image/19.jpg" style="width: 30%" alt="" />
+                  <div class="content-item px-2">
+                    <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                      Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                    </p>
+                    <div class="hours-comment-title1 d-flex mt-3">
+                      <p class="hours text-black-50 m-0">2 giờ trước</p>
+                      <!-- <p class="comment text-black-50 ms-4 mb-0">1242 bình luận</p> -->
+                    </div>
+                  </div>
+                </div>
+                <!--end item-oriental-medicine-2-->
+
+                <div class="item-oriental-medicine-3 mb-3 d-flex">
+                  <img src="./image/5.jpg" style="width: 30%" alt="" />
+                  <div class="content-item px-2">
+                    <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                      Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                    </p>
+                    <div class="hours-comment-title1 d-flex mt-3">
+                      <p class="hours text-black-50 m-0">2 giờ trước</p>
+                      <p class="comment text-black-50 ms-4 mb-0">
+                        1242 bình luận
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--end item-oriental-medicine-3-->
+
+                <div class="item-oriental-medicine-4 mb-3 d-flex">
+                  <img src="./image/8.jpg" style="width: 30%" alt="" />
+                  <div class="content-item px-2">
+                    <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                      Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                    </p>
+                    <div class="hours-comment-title1 d-flex mt-3">
+                      <p class="hours text-black-50 m-0">2 giờ trước</p>
+                      <!-- <p class="comment text-black-50 ms-4 mb-0">1242 bình luận</p> -->
+                    </div>
+                  </div>
+                </div>
+                <!--end item-oriental-medicine-4-->
+              </div>
+            </div>
+            <!--end group-content-oriental-medicine-1-->
+          </div>
+          <!--end content_oriental-medicine-->
+
+          <div class="group-2layout d-block d-sm-block d-md-flex d-lg-flex">
+            <div class="layout1 col-12 col-sm-12 col-md-6 col-lg-6 p-4  my-2 my-sm-2 my-md-0 mu-lg-0 mt-md-0 mt-lg-0">
+              <h5 class="text-primary text-uppercase fw-bold card-title  border-top border-primary border-4 mb-4"><a href="#" class="text-decoration-none">Tiêu dùng</a></h5>
+              <div
+                class="item1-content-layout1 position-relative"
+              >
+                <img src="./image/22.png" style="width: 100%" alt="" />
+                <p class="content fw-bold fs-14 my-2">
+                  Nụ cười giúp doanh nhân Anh Thơ tỏa sáng trong mọi hoàn cảnh
+                </p>
+                <p class="fs-11 my-2 text-black-50">
+                  Bà xã của diễn viên Bình Minh ghi điểm trong mọi hoàn cảnh và
+                  phong cách nhờ thường trực nụ cười trên môi...
+                </p>
+              </div>
+              <!--end item1-conten-layout1-->
+              <div
+                class="item2-conten-layout1 my-4 position-relative"
+              >
+                <div class="item-content1 mb-3 d-flex">
+                  <img src="./image/23.jpg" style="width: 30%" alt="" />
+                  <div class="content-item px-2">
+                    <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                      Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                    </p>
+                    <div class="hours-comment-title1 d-flex mt-3">
+                      <p class="hours text-black-50 m-0">2 giờ trước</p>
+                      <p class="comment text-black-50 ms-4 mb-0">
+                        1242 bình luận
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--end item-conten1-->
+
+                <div class="item-content2 mb-3 d-flex">
+                  <img src="./image/19.jpg" style="width: 30%" alt="" />
+                  <div class="content-item py-2">
+                    <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                      Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                    </p>
+                    <div class="hours-comment-title1 d-flex mt-3">
+                      <p class="hours text-black-50 m-0">2 giờ trước</p>
+                      <!-- <p class="comment text-black-50 ms-4 mb-0">1242 bình luận</p> -->
+                    </div>
+                  </div>
+                </div>
+                <!--end item-content2-->
+
+                <div class="item-content3 mb-3 d-flex">
+                  <img src="./image/5.jpg" style="width: 30%" alt="" />
+                  <div class="content-item px-2">
+                    <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                      Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                    </p>
+                    <div class="hours-comment-title1 d-flex mt-3">
+                      <p class="hours text-black-50 m-0">2 giờ trước</p>
+                      <p class="comment text-black-50 ms-4 mb-0">
+                        1242 bình luận
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--end item-content3-->
+
+                <div class="item-content4 mb-3 d-flex">
+                  <img src="./image/8.jpg" style="width: 30%" alt="" />
+                  <div class="content-item px-2">
+                    <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                      Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                    </p>
+                    <div class="hours-comment-title1 d-flex mt-3">
+                      <p class="hours text-black-50 m-0">2 giờ trước</p>
+                      <!-- <p class="comment text-black-50 ms-4 mb-0">1242 bình luận</p> -->
+                    </div>
+                  </div>
+                </div>
+                <!--end item-content4-->
+              </div> <!--end item2-conten-layout1 -->
+            </div> <!--end layout1-->
+
+            <div class="layout2 col-12 col-sm-12 col-md-6 col-lg-6 p-4  my-2 my-sm-2 my-md-0 my-lg-0 mt-md-0 mt-lg-0">
+              <h5 class="text-primary text-uppercase fw-bold card-title  border-top border-primary border-4 mb-4"><a href="#" class="text-decoration-none">Thị trường</a></h5>
+              <div
+                class="item1-content-layout2 position-relative"
+              >
+                <img src="./image/21.png" style="width: 100%" alt="" />
+                <p class="content fw-bold fs-14 my-2">
+                  Nụ cười giúp doanh nhân Anh Thơ tỏa sáng trong mọi hoàn cảnh
+                </p>
+                <p class="fs-11 my-2 text-black-50">
+                  Bà xã của diễn viên Bình Minh ghi điểm trong mọi hoàn cảnh và
+                  phong cách nhờ thường trực nụ cười trên môi...
+                </p>
+              </div>
+              <!--end item1-conten-layout2-->
+              <div
+                class="item2-conten-layout2 my-4 position-relative"
+              >
+                <div class="item-content-1 mb-3 d-flex">
+                  <img src="./image/19.jpg" style="width: 30%" alt="" />
+                  <div class="content-item px-2">
+                    <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                      Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                    </p>
+                    <div class="hours-comment-title1 d-flex mt-3">
+                      <p class="hours text-black-50 m-0">2 giờ trước</p>
+                      <p class="comment text-black-50 ms-4 mb-0">
+                        1242 bình luận
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--end item2-conten-layout1-->
+
+                <div class="item-content2 mb-3 d-flex">
+                  <img src="./image/9.jpg" style="width: 30%" alt="" />
+                  <div class="content-item px-2">
+                    <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                      Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                    </p>
+                    <div class="hours-comment-title1 d-flex mt-3">
+                      <p class="hours text-black-50 m-0">2 giờ trước</p>
+                      <!-- <p class="comment text-black-50 ms-4 mb-0">1242 bình luận</p> -->
+                    </div>
+                  </div>
+                </div>
+                <!--end item-content2-->
+
+                <div class="item-content3 mb-3 d-flex">
+                  <img src="./image/5.jpg" style="width: 30%" alt="" />
+                  <div class="content-item px-2">
+                    <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                      Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                    </p>
+                    <div class="hours-comment-title1 d-flex mt-3">
+                      <p class="hours text-black-50 m-0">2 giờ trước</p>
+                      <p class="comment text-black-50 ms-4 mb-0">
+                        1242 bình luận
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--end item-content3-->
+
+                <div class="item-content4 mb-3 d-flex">
+                  <img src="./image/8.jpg" style="width: 30%" alt="" />
+                  <div class="content-item px-2">
+                    <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                      Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                    </p>
+                    <div class="hours-comment-title1 d-flex mt-3">
+                      <p class="hours text-black-50 m-0">2 giờ trước</p>
+                      <!-- <p class="comment text-black-50 ms-4 mb-0">1242 bình luận</p> -->
+                    </div>
+                  </div>
+                </div>
+                <!--end item-content4-->
+              </div> <!--end item2-conten-layout2 -->
+            </div> <!--end layout2-->
+          </div><!--end-group2layout-->
+          <!--------------------------------------------------------------------------------->
+          <div
+            class="content-life d-block d-sm-block d-md-block d-lg-block"
+          >
+            <nav
+              class="navbar content_life navbar-expand-lg navbar-light bg-light  border-top border-primary border-4"
+            >
+              <div class="container-fluid">
+                <a
+                  class="navbar-brand content-life text-primary text-uppercase fw-bold ms-3"
+                  href="#"
+                  >Đời sống</a
+                >
+                <a
+                  class="navbar-toggler"
+                  data-bs-toggle="collapse"
+                  href="#navbarContentcommunity"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="navbarContentcommunity"
+                >
+                  <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                </a>
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button> -->
+                <div
+                  class="collapse navbar-collapse flex-grow-0"
+                  id="navbarContentcommunity"
+                >
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0 border-end">
+                      <a class="nav-link" href="#">Giới tính</a>
+                    </li>
+                    <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0 border-end">
+                      <a class="nav-link" href="#">Tâm lý</a>
+                    </li>
+
+                    <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0 border-end">
+                      <a class="nav-link" href="#">Chữa bệnh</a>
+                    </li>
+                    <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0 border-end">
+                      <a class="nav-link" href="#">Phòng bệnh</a>
+                    </li>
+                    <li class="nav-item ms-3 ms-ms-3 ms-md-0 ms-lg-0">
+                      <a class="nav-link" href="#">Đông y</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+            <div
+              class="group-content-medical-community-1 d-block d-sm-block d-md-flex d-lg-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start"
+            >
+              <div
+                class="item1-content-medical-community col-12 col-sm-12 col-md-6 col-lg-6 p-4  my-2 my-sm-2 mt-md-0 mt-lg-0 position-relative"
+              >
+                <img src="./image/26.png" style="width: 100%" alt="" />
+                <p class="content fw-bold fs-14 m-2">
+                  Nụ cười giúp doanh nhân Anh Thơ tỏa sáng trong mọi hoàn cảnh
+                </p>
+                <p class="fs-11 m-2 text-black-50">
+                  Bà xã của diễn viên Bình Minh ghi điểm trong mọi hoàn cảnh và
+                  phong cách nhờ thường trực nụ cười trên môi...
+                </p>
+              </div>
+              <!--end item1-content-medical-community-->
+              <div
+                class="item2-content-medical-community col-12 col-sm-12 col-md-6 col-lg-6 p-4  my-2 my-sm-2 mt-md-0 mt-lg-0 position-relative"
+              >
+                <div class="item-medical-community-1 mb-3 d-flex">
+                  <img src="./image/23.jpg" style="width: 30%" alt="" />
+                  <div class="content-item px-2">
+                    <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                      Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                    </p>
+                    <div class="hours-comment-title1 d-flex mt-3">
+                      <p class="hours text-black-50 m-0">2 giờ trước</p>
+                      <p class="comment text-black-50 ms-4 mb-0">
+                        1242 bình luận
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--end item-medical-community-1-->
+
+                <div class="item-medical-community-2 mb-3 d-flex">
+                  <img src="./image/19.jpg" style="width: 30%" alt="" />
+                  <div class="content-item px-2">
+                    <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                      Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                    </p>
+                    <div class="hours-comment-title1 d-flex mt-3">
+                      <p class="hours text-black-50 m-0">2 giờ trước</p>
+                      <!-- <p class="comment text-black-50 ms-4 mb-0">1242 bình luận</p> -->
+                    </div>
+                  </div>
+                </div>
+                <!--end item-medical-community-2-->
+
+                <div class="item-medical-community-3 mb-3 d-flex">
+                  <img src="./image/5.jpg" style="width: 30%" alt="" />
+                  <div class="content-item px-2">
+                    <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                      Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                    </p>
+                    <div class="hours-comment-title1 d-flex mt-3">
+                      <p class="hours text-black-50 m-0">2 giờ trước</p>
+                      <p class="comment text-black-50 ms-4 mb-0">
+                        1242 bình luận
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--end item-medical-community-3-->
+
+                <div class="item-medical-community-4 mb-3 d-flex">
+                  <img src="./image/8.jpg" style="width: 30%" alt="" />
+                  <div class="content-item px-2">
+                    <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                      Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                    </p>
+                    <div class="hours-comment-title1 d-flex mt-3">
+                      <p class="hours text-black-50 m-0">2 giờ trước</p>
+                      <!-- <p class="comment text-black-50 ms-4 mb-0">1242 bình luận</p> -->
+                    </div>
+                  </div>
+                </div>
+                <!--end item-medical-community-4-->
+
+                
+              </div>
+            </div>
+            <!--end group-content-medical-community-1-->
+          </div>
+          <!--end content_medical-community-->
+        </div> <!--end content-category-->
+        
+
+        <div class="information col-12 col-sm-12 col-md-4 col-lg-4 d-block">
+          <div class="news">
+            <div
+              class="content_news_1 col-12  px-4 px-sm-4 px-md-3 px-lg-3 pb-2"
+            >
+              <h5 class="fw-bold ">
+                <i class="fa-solid fa-newspaper"></i> Tin mới nhất
+              </h5>
+              <img src="./image/23.jpg" style="width: 100%" alt="" />
+              <p class="content fw-bold fs-14 m-2">
+                Trải lòng của kình ngư Michael Phelps về chuỗi ngày trầm cảm
+              </p>
+              <p class="fs-11 m-2 text-black-50">
+                Là kình ngư hàng đầu thế giới với 82 huy chương quốc tế, Michael
+                Phelps có cuộc sống bao người khao khát. Thế nhưng, đằng sau ánh
+                hào quang...
+              </p>
+            </div>
+
+            <div
+              class="related col-12 px-4 px-sm-4 px-md-3 px-lg-3  m-auto p-2"
+            >
+              <div class="item-related-1 mb-3 d-flex">
+                <img src="./image/23.jpg" style="width: 30%" alt="" />
+                <div class="content-item px-2">
+                  <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                    Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                  </p>
+                  <div class="hours-comment-title1 d-flex mt-3">
+                    <p class="hours text-black-50 m-0">2 giờ trước</p>
+                    <p class="comment text-black-50 ms-4 mb-0">
+                      1242 bình luận
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--end item-related-1-->
+
+              <div class="item-related-1 mb-3 d-flex">
+                <img src="./image/19.jpg" style="width: 30%" alt="" />
+                <div class="content-item px-2">
+                  <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                    Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                  </p>
+                  <div class="hours-comment-title1 d-flex mt-3">
+                    <p class="hours text-black-50 m-0">2 giờ trước</p>
+                    <!-- <p class="comment text-black-50 ms-4 mb-0">1242 bình luận</p> -->
+                  </div>
+                </div>
+              </div>
+              <!--end item-related-2-->
+
+              <div class="item-related-1 mb-3 d-flex">
+                <img src="./image/5.jpg" style="width: 30%" alt="" />
+                <div class="content-item px-2">
+                  <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                    Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                  </p>
+                  <div class="hours-comment-title1 d-flex mt-3">
+                    <p class="hours text-black-50 m-0">2 giờ trước</p>
+                    <p class="comment text-black-50 ms-4 mb-0">
+                      1242 bình luận
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--end item-related-3-->
+
+              <div class="item-related-1 mb-3 d-flex">
+                <img src="./image/8.jpg" style="width: 30%" alt="" />
+                <div class="content-item px-2">
+                  <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                    Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                  </p>
+                  <div class="hours-comment-title1 d-flex mt-3">
+                    <p class="hours text-black-50 m-0">2 giờ trước</p>
+                    <!-- <p class="comment text-black-50 ms-4 mb-0">1242 bình luận</p> -->
+                  </div>
+                </div>
+              </div>
+              <!--end item-related-4-->
+
+              <div class="item-related-1 mb-3 d-flex">
+                <img src="./image/9.jpg" style="width: 30%" alt="" />
+                <div class="content-item px-2">
+                  <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                    Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                  </p>
+                  <div class="hours-comment-title1 d-flex mt-3">
+                    <p class="hours text-black-50 m-0">2 giờ trước</p>
+                    <!-- <p class="comment text-black-50 ms-4 mb-0">1242 bình luận</p> -->
+                  </div>
+                </div>
+              </div>
+              <!--end item-related-5-->
+            </div>
+            <!--end related-->
+            <div
+              class="ads col-12 px-4 px-sm-4 px-md-3 px-lg-3  m-auto p-2"
+            >
+              <img src="./image/10.jpg " style="width: 100%" alt="" />
+            </div>
+          </div>
+          <!--end news-->
+
+          <div class="wiki">
+            <div
+              class="related col-12 px-4 px-sm-4 px-md-3 px-lg-3  m-auto p-2"
+            >
+            <h5 class="fw-bold py-2">
+              <i class="fa-solid fa-square-plus"></i> Wiki Y Tế
+            </h5>
+              <div class="item-related-1 mb-3 d-flex">
+                <img src="./image/23.jpg" style="width: 30%" alt="" />
+                <div class="content-item px-2">
+                  <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                    Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                  </p>
+                  <div class="hours-comment-title1 d-flex mt-3">
+                    <p class="hours text-black-50 m-0">2 giờ trước</p>
+                    <p class="comment text-black-50 ms-4 mb-0">
+                      1242 bình luận
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--end item-related-1-->
+
+              <div class="item-related-2 mb-3 d-flex">
+                <img src="./image/19.jpg" style="width: 30%" alt="" />
+                <div class="content-item px-2">
+                  <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                    Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                  </p>
+                  <div class="hours-comment-title1 d-flex mt-3">
+                    <p class="hours text-black-50 m-0">2 giờ trước</p>
+                    <!-- <p class="comment text-black-50 ms-4 mb-0">1242 bình luận</p> -->
+                  </div>
+                </div>
+              </div>
+              <!--end item-related-2-->
+
+              <div class="item-related-3 mb-3 d-flex">
+                <img src="./image/5.jpg" style="width: 30%" alt="" />
+                <div class="content-item px-2">
+                  <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                    Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                  </p>
+                  <div class="hours-comment-title1 d-flex mt-3">
+                    <p class="hours text-black-50 m-0">2 giờ trước</p>
+                    <p class="comment text-black-50 ms-4 mb-0">
+                      1242 bình luận
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--end item-related-3-->
+
+              <div class="item-related-4 mb-3 d-flex">
+                <img src="./image/8.jpg" style="width: 30%" alt="" />
+                <div class="content-item px-2">
+                  <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                    Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                  </p>
+                  <div class="hours-comment-title1 d-flex mt-3">
+                    <p class="hours text-black-50 m-0">2 giờ trước</p>
+                    <!-- <p class="comment text-black-50 ms-4 mb-0">1242 bình luận</p> -->
+                  </div>
+                </div>
+              </div>
+              <!--end item-related-4-->
+
+              <div class="item-related-5 mb-3 d-flex">
+                <img src="./image/9.jpg" style="width: 30%" alt="" />
+                <div class="content-item px-2">
+                  <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                    Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                  </p>
+                  <div class="hours-comment-title1 d-flex mt-3">
+                    <p class="hours text-black-50 m-0">2 giờ trước</p>
+                    <!-- <p class="comment text-black-50 ms-4 mb-0">1242 bình luận</p> -->
+                  </div>
+                </div>
+              </div>
+              <!--end item-related-5-->
+
+              <div class="item-related-6 mb-3 d-flex">
+                <img src="./image/23.jpg" style="width: 30%" alt="" />
+                <div class="content-item px-2">
+                  <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                    Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                  </p>
+                  <div class="hours-comment-title1 d-flex mt-3">
+                    <p class="hours text-black-50 m-0">2 giờ trước</p>
+                    <p class="comment text-black-50 ms-4 mb-0">
+                      1242 bình luận
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--end item-related-6-->
+
+              <div class="item-related-7 mb-3 d-flex">
+                <img src="./image/19.jpg" style="width: 30%" alt="" />
+                <div class="content-item px-2">
+                  <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                    Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                  </p>
+                  <div class="hours-comment-title1 d-flex mt-3">
+                    <p class="hours text-black-50 m-0">2 giờ trước</p>
+                    <!-- <p class="comment text-black-50 ms-4 mb-0">1242 bình luận</p> -->
+                  </div>
+                </div>
+              </div>
+              <!--end item-related-7-->
+
+              <div class="item-related-8 mb-3 d-flex">
+                <img src="./image/5.jpg" style="width: 30%" alt="" />
+                <div class="content-item px-2">
+                  <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                    Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                  </p>
+                  <div class="hours-comment-title1 d-flex mt-3">
+                    <p class="hours text-black-50 m-0">2 giờ trước</p>
+                    <p class="comment text-black-50 ms-4 mb-0">
+                      1242 bình luận
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--end item-related-8-->
+
+              <div class="item-related-9 mb-3 d-flex">
+                <img src="./image/8.jpg" style="width: 30%" alt="" />
+                <div class="content-item px-2">
+                  <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                    Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                  </p>
+                  <div class="hours-comment-title1 d-flex mt-3">
+                    <p class="hours text-black-50 m-0">2 giờ trước</p>
+                    <!-- <p class="comment text-black-50 ms-4 mb-0">1242 bình luận</p> -->
+                  </div>
+                </div>
+              </div>
+              <!--end item-related-9-->
+
+              <div class="item-related-10 mb-3 d-flex">
+                <img src="./image/9.jpg" style="width: 30%" alt="" />
+                <div class="content-item px-2">
+                  <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                    Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                  </p>
+                  <div class="hours-comment-title1 d-flex mt-3">
+                    <p class="hours text-black-50 m-0">2 giờ trước</p>
+                    <!-- <p class="comment text-black-50 ms-4 mb-0">1242 bình luận</p> -->
+                  </div>
+                </div>
+              </div>
+              <!--end item-related-10-->
+            </div>
+            <!--end related-->
+            <div
+              class="ads col-12 px-4 px-sm-4 px-md-3 px-lg-3 m-auto p-2 "
+            >
+              <img class="rounded" src="./image/10.jpg " style="width: 100%" alt="" />
+            </div>
+          </div>
+          <!--end wiki-->
+
+          <div class="connect">
+            <div
+              class="related col-12 px-4 px-sm-4 px-md-3 px-lg-3  m-auto p-2"
+            >
+            <h5 class="fw-bold py-2">
+              <i class="fa-solid fa-link"></i> Kết nối
+            </h5>
+              <div class="item-related-1 mb-3 d-flex">
+                <img src="./image/23.jpg" style="width: 30%" alt="" />
+                <div class="content-item px-2">
+                  <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                    Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                  </p>
+                  <div class="hours-comment-title1 d-flex mt-3">
+                    <p class="hours text-black-50 m-0">2 giờ trước</p>
+                    <p class="comment text-black-50 ms-4 mb-0">
+                      1242 bình luận
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--end item-related-1-->
+
+              <div class="item-related-2 mb-3 d-flex">
+                <img src="./image/19.jpg" style="width: 30%" alt="" />
+                <div class="content-item px-2">
+                  <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                    Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                  </p>
+                  <div class="hours-comment-title1 d-flex mt-3">
+                    <p class="hours text-black-50 m-0">2 giờ trước</p>
+                    <!-- <p class="comment text-black-50 ms-4 mb-0">1242 bình luận</p> -->
+                  </div>
+                </div>
+              </div>
+              <!--end item-related-2-->
+
+              <div class="item-related-3 mb-3 d-flex">
+                <img src="./image/5.jpg" style="width: 30%" alt="" />
+                <div class="content-item px-2">
+                  <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                    Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                  </p>
+                  <div class="hours-comment-title1 d-flex mt-3">
+                    <p class="hours text-black-50 m-0">2 giờ trước</p>
+                    <p class="comment text-black-50 ms-4 mb-0">
+                      1242 bình luận
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--end item-related-3-->
+
+              <div class="item-related-4 mb-3 d-flex">
+                <img src="./image/8.jpg" style="width: 30%" alt="" />
+                <div class="content-item px-2">
+                  <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                    Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                  </p>
+                  <div class="hours-comment-title1 d-flex mt-3">
+                    <p class="hours text-black-50 m-0">2 giờ trước</p>
+                    <!-- <p class="comment text-black-50 ms-4 mb-0">1242 bình luận</p> -->
+                  </div>
+                </div>
+              </div>
+              <!--end item-related-4-->
+
+              <div class="item-related-5 mb-3 d-flex">
+                <img src="./image/9.jpg" style="width: 30%" alt="" />
+                <div class="content-item px-2">
+                  <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                    Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                  </p>
+                  <div class="hours-comment-title1 d-flex mt-3">
+                    <p class="hours text-black-50 m-0">2 giờ trước</p>
+                    <!-- <p class="comment text-black-50 ms-4 mb-0">1242 bình luận</p> -->
+                  </div>
+                </div>
+              </div>
+              <!--end item-related-5-->
+
+              <div class="item-related-6 mb-3 d-flex">
+                <img src="./image/23.jpg" style="width: 30%" alt="" />
+                <div class="content-item px-2">
+                  <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                    Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                  </p>
+                  <div class="hours-comment-title1 d-flex mt-3">
+                    <p class="hours text-black-50 m-0">2 giờ trước</p>
+                    <p class="comment text-black-50 ms-4 mb-0">
+                      1242 bình luận
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--end item-related-6-->
+
+              <div class="item-related-7 mb-3 d-flex">
+                <img src="./image/19.jpg" style="width: 30%" alt="" />
+                <div class="content-item px-2">
+                  <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                    Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                  </p>
+                  <div class="hours-comment-title1 d-flex mt-3">
+                    <p class="hours text-black-50 m-0">2 giờ trước</p>
+                    <!-- <p class="comment text-black-50 ms-4 mb-0">1242 bình luận</p> -->
+                  </div>
+                </div>
+              </div>
+              <!--end item-related-7-->
+
+              <div class="item-related-8 mb-3 d-flex">
+                <img src="./image/5.jpg" style="width: 30%" alt="" />
+                <div class="content-item px-2">
+                  <p class="title-item1 m-0 fw-bolder lh-1 fs-6">
+                    Ba bệnh viện hợp lực cứu thai phụ bị viêm tụy cấp hiếm gặp
+                  </p>
+                  <div class="hours-comment-title1 d-flex mt-3">
+                    <p class="hours text-black-50 m-0">2 giờ trước</p>
+                    <p class="comment text-black-50 ms-4 mb-0">
+                      1242 bình luận
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--end item-related-8-->
+            </div>
+            <!--end related-->
+          </div>
+          <!--end connect-->
+        </div>
+        <!--end infomation-->
+      </div>
+      <!--end content-->
+    </div>
+    <!--end wrapper-->
+    
+    <div class="bootom py-3 mt-3" style="background-color:#1F2333">
+      <div class=" col-lg-10 col-md-12 col-sm-12 m-auto justify-content-center d-flex">
+        <div class="itemm1 col-4  text-white p-4"> 
+          <img src="./image/lOGO.svg" style="width:50%" alt="">
+          <p class="lh-lg mt-3 ">
+            Báo điện tử Sức Khỏe Việt Nam - www.suckhoevietnam.net.vn Giấy phép số 38/GP-BTTTT 
+            của Bộ TT&TT cấp ngày 25/1/2016 Tổng biên tập: Nguyễn Tiến Thanh Vui lòng dẫn 
+            nguồn "suckhoevietnam.net.vn" khi bạn phát hành lại thông tin từ website này.
+          </p>
+        </div>
+        <div class="itemm2 col-2  text-white p-4 mt-3">
+          <ul >
+            <li><h5 class="text-uppercase">Sức khỏe</h4></li>
+            <li class="list-unstyled text-white-50">Tư vấn</li>
+            <li class="list-unstyled text-white-50">Làm đẹp</li>
+            <li class="list-unstyled text-white-50" >Thuốc & TPCN</li>
+            <li class="list-unstyled text-white-50">Ung thư</li>
+            <li class="list-unstyled text-white-50">Thói quen tốt</li>
+          </ul>
+        </div>
+        <div class="itemm3 col-2 text-white p-4 mt-3">
+            <ul >
+              <li><h5 class="text-uppercase">đông y</h4></li>
+              <li class="list-unstyled text-white-50">Tư vấn</li>
+              <li class="list-unstyled text-white-50">Làm đẹp</li>
+              <li class="list-unstyled text-white-50" >Thuốc & TPCN</li>
+              <li class="list-unstyled text-white-50">Ung thư</li>
+              <li class="list-unstyled text-white-50">Thói quen tốt</li>
+            </ul>
+        </div>
+        <div class="itemm4 col-2 text-white p-4 mt-3">
+            <ul >
+              <li><h5 class="text-uppercase">dinh dưỡng</h4></li>
+              <li class="list-unstyled text-white-50">Tư vấn</li>
+              <li class="list-unstyled text-white-50">Làm đẹp</li>
+              <li class="list-unstyled text-white-50" >Thuốc & TPCN</li>
+              <li class="list-unstyled text-white-50">Ung thư</li>
+              <li class="list-unstyled text-white-50">Thói quen tốt</li>
+            </ul>
+        </div>
+        <div class="itemm5 col-2 text-white p-4 mt-3">
+          <ul >
+            <li><h5 class="text-uppercase">wiki y tế</h4></li>
+            <li class="list-unstyled text-white-50">Tư vấn</li>
+            <li class="list-unstyled text-white-50">Làm đẹp</li>
+            <li class="list-unstyled text-white-50" >Thuốc & TPCN</li>
+            <li class="list-unstyled text-white-50">Ung thư</li>
+            <li class="list-unstyled text-white-50">Thói quen tốt</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--end bootom-->
+    <p class="w-fluid bg-primary p-4 text-center text-white mb-0">Quản lý và xuất bản bởi Báo Đời sống & Pháp luật</p>
+   
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
